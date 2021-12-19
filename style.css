@@ -7,7 +7,7 @@ body {
 /*Animated History*/
 
 .road {
-    background: url() bottom no-repeat;
+    background: url("city.jpg") bottom no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 892px;
