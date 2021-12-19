@@ -57,7 +57,7 @@ body {
 
 .blue_truck .blue_truck_rim_one,
 .blue_truck .blue_truck_rim_two {
-    background: url(images/truck-rim.png) no-repeat center center;
+    background: url(truck-rim.png) no-repeat center center;
     background-size: cover;
     height: 18px;
     width: 18px;
