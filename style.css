@@ -3,20 +3,21 @@
     padding: 0;
 }
 .road {
-    background: url(city.jpg) bottom no-repeat;
+    background: url(images/city2.jpg) bottom no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 100vw;
-    height: 100vh;
+    height: 500px;
     margin: 0 auto;
     overflow: hidden;
 }
 .blue_truck {
-    background: url(blue-truck.png) no-repeat center center;
-    height: 93px;
-    width: 235px;
+    background: url(images/blue-truck.png) no-repeat center center;
+    background-size: cover;
+    height: 65px;
+    width: 164px;
     position: relative;
-    top: 73%;
+    top: 75%;
     animation-name: blue_truck;
     animation-duration: 15s;
     animation-timing-function: linear;
@@ -37,10 +38,10 @@
 
 .blue_truck .blue_truck_rim_one,
 .blue_truck .blue_truck_rim_two {
-    background: url(truck-rim.png) no-repeat center center;
+    background: url(images/truck-rim.png) no-repeat center center;
     background-size: cover;
-    height: 18px;
-    width: 18px;
+    height: 13px;
+    width: 13px;
     position: absolute;
     top: 75%;
     animation-name: blue_truck_rim;
@@ -73,9 +74,10 @@
 /*Green Truck*/
 
 .green_truck {
-    background: url(green-truck.png) no-repeat center center;
-    height: 93px;
-    width: 235px;
+    background: url(images/green-truck.png) no-repeat center center;
+    background-size: cover;
+    height: 65px;
+    width: 164px;
     position: relative;
     top: 61%;
     animation-name: green_truck;
@@ -99,10 +101,10 @@
 
 .green_truck .green_truck_rim_one,
 .green_truck .green_truck_rim_two {
-    background: url(truck-rim.png) no-repeat center center;
+    background: url(images/truck-rim.png) no-repeat center center;
     background-size: cover;
-    height: 18px;
-    width: 18px;
+    height: 13px;
+    width: 13px;
     position: absolute;
     top: 75%;
     animation-name: green_truck_rim;
@@ -136,12 +138,12 @@
 
 
 .pickup_truck {
-    background: url(pickup-truck.png) no-repeat center center;
+    background: url(images/pickup-truck.png) no-repeat center center;
     background-size: cover;
-    height: 80px;
-    width: 160px;
+    height: 60px;
+    width: 120px;
     position: relative;
-    top: 48%;
+    top: 49%;
     animation-name: pickup_truck;
     animation-duration: 14s;
     animation-timing-function: linear;
@@ -163,10 +165,10 @@
 
 .pickup_truck .pickup_truck_rim_one,
 .pickup_truck .pickup_truck_rim_two {
-    background: url(pickup-rim.png) no-repeat center center;
+    background: url(images/pickup-rim.png) no-repeat center center;
     background-size: cover;
-    height: 18px;
-    width: 18px;
+    height: 12px;
+    width: 12px;
     position: absolute;
     top: 56%;
     animation-name: pickup_truck_rim;
@@ -176,7 +178,7 @@
 }
 
 .pickup_truck .pickup_truck_rim_one {
-    left: 12.6%;
+    left: 12.8%;
 }
 
 .pickup_truck .pickup_truck_rim_two {
@@ -199,12 +201,12 @@
 
 
 .suzuki {
-    background: url(suzuki.png) no-repeat center center;
+    background: url(images/suzuki.png) no-repeat center center;
     background-size: cover;
-    height: 80px;
-    width: 160px;
+    height: 40px;
+    width: 80px;
     position: relative;
-    top: 65%;
+    top: 70%;
     animation-name: suzuki;
     animation-duration: 27s;
     animation-timing-function: linear;
@@ -226,12 +228,12 @@
 
 .suzuki .suzuki_rim_one,
 .suzuki .suzuki_rim_two {
-    background: url(suzuki-rim.png) no-repeat center center;
+    background: url(images/suzuki-rim.png) no-repeat center center;
     background-size: cover;
-    height: 18px;
-    width: 18px;
+    height: 9px;
+    width: 9px;
     position: absolute;
-    top: 71%;
+    top: 72%;
     animation-name: suzuki_rim;
     animation-duration: 2s;
     animation-timing-function: linear;
